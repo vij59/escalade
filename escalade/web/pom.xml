@@ -8,9 +8,7 @@
 		<artifactId>escalade</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.projet</groupId>
 	<artifactId>web</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>web Maven Webapp</name>
 	<url>http://maven.apache.org</url>
@@ -39,7 +37,7 @@
 			<artifactId>dao</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		
+
 	</dependencies>
 	<build>
 		<finalName>web</finalName>
@@ -53,12 +51,10 @@
 			</plugin>
 
 			<plugin>
-    <artifactId>maven-war-plugin</artifactId>
-    <version>2.4</version>
-    <configuration>
-        <failOnMissingWebXml>false</failOnMissingWebXml>
-    </configuration>
-</plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				
+				
+			</plugin>
 
 
 		</plugins>
