@@ -32,7 +32,7 @@ public class DaoFactory {
 		return connexion;
 	}
 
-	// R�cup�ration du Dao
+	
 	public UtilisateurDao getUtilisateurDao() {
 		return new UtilisateurDaoImpl(this);
 	}
