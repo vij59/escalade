@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-//import dao.Noms;
+
 import org.beans.BeanException;
 
 import org.beans.Utilisateur;
@@ -17,7 +17,7 @@ import org.beans.Utilisateur;
 /**
  * Servlet implementation class Test
  */
-@WebServlet("/Test")
+
 public class Test extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -29,21 +29,11 @@ public class Test extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		
-		
-		
 		this.getServletContext().getRequestDispatcher("/WEB-INF/bonjour.jsp").forward(request, response);
 	}
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		Utilisateur utilisateur = new Utilisateur();
-		try {
-			utilisateur.setNom(request.getParameter("nom"));
-		} catch (BeanException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-		utilisateur.setPrenom(request.getParameter("prenom"));
-
+		
 		
 
 		this.getServletContext().getRequestDispatcher("/WEB-INF/bonjour.jsp").forward(request, response);
