@@ -37,7 +37,10 @@
 			<artifactId>dao</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>web</finalName>
@@ -52,8 +55,8 @@
 
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
-				
-				
+
+
 			</plugin>
 
 
