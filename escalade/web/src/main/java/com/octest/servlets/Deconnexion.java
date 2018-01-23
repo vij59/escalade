@@ -10,7 +10,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.beans.BeanException;
-import org.beans.Pseudo;
 import org.beans.Secteur;
 import org.beans.Utilisateur;
 

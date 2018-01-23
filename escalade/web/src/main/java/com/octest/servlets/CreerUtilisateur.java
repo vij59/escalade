@@ -1,6 +1,7 @@
 package com.octest.servlets;
 
 import java.io.IOException;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -8,7 +9,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.beans.BeanException;
-import org.beans.Pseudo;
 import org.beans.Utilisateur;
 
 import dao.DaoException;

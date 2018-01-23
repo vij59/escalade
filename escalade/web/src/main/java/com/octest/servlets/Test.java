@@ -10,10 +10,9 @@ import javax.servlet.http.HttpServletResponse;
 
 //import dao.Noms;
 import org.beans.BeanException;
-import org.beans.Pseudo;
+
 import org.beans.Utilisateur;
 
-import beans.Noms;
 
 /**
  * Servlet implementation class Test
