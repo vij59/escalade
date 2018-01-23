@@ -14,27 +14,6 @@ SET check_function_bodies = false;
 SET client_min_messages = warning;
 SET row_security = off;
 
-DROP DATABASE java_ee;
---
--- Name: java_ee; Type: DATABASE; Schema: -; Owner: postgres
---
-
-CREATE DATABASE java_ee WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'French_France.1252' LC_CTYPE = 'French_France.1252';
-
-
-ALTER DATABASE java_ee OWNER TO postgres;
-
-\connect java_ee
-
-SET statement_timeout = 0;
-SET lock_timeout = 0;
-SET idle_in_transaction_session_timeout = 0;
-SET client_encoding = 'UTF8';
-SET standard_conforming_strings = on;
-SET check_function_bodies = false;
-SET client_min_messages = warning;
-SET row_security = off;
-
 --
 -- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
 --
@@ -454,13 +433,6 @@ ALTER TABLE ONLY utilisateur ALTER COLUMN id SET DEFAULT nextval('utilisateur_id
 --
 
 ALTER TABLE ONLY voie ALTER COLUMN id_voie SET DEFAULT nextval('voie_id_voie_seq'::regclass);
-
-
---
--- Name: public; Type: ACL; Schema: -; Owner: postgres
---
-
-GRANT ALL ON SCHEMA public TO PUBLIC;
 
 
 --
