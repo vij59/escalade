@@ -2,32 +2,34 @@ Projet 3 : Site communautaire autour de l'escalade en Java EE
 
 Le site a pour objectif de permettre de partager des informations à propos de « sites » d'escalade, entre initiés.
 L'application offre les fonctionnalités suivantes :
--inscription et authentification
--ajout de sites d'escalade et de leurs détails géographiques (pays, région) et techniques ( secteurs, voies, longueurs, cotations)
--ajout de topos, documents très détaillés concernant les sites.
--location de topos entre membres de la communauté
--ajout de commentaires par les membres sur les sites et les topos
--rechercher des sites en fonction de différents critères (pays, régions, cotations)
--présentation des sites et des topos
+- inscription et authentification
+- ajout de sites d'escalade et de leurs détails géographiques (pays, région) et techniques ( secteurs, voies, longueurs, cotations)
+- ajout de topos, documents très détaillés concernant les sites.
+- location de topos entre membres de la communauté
+- ajout de commentaires par les membres sur les sites et les topos
+- rechercher des sites en fonction de différents critères (pays, régions, cotations)
+- présentation des sites et des topos
 
 Technologies utilisées :
 
--Application web réalisé en Java/JEE (JDK 8)
--Serveur Apache Tomcat 9.0
--Base de données PostGreSQL 9.6.5
--Packagée (WAR) avec  Apache Maven
+- Application web réalisé en Java/JEE (JDK 8)
+- Serveur Apache Tomcat 9.0
+- Base de données PostGreSQL 9.6.5
+- Packagée (WAR) avec  Apache Maven
 
 
 Outils
--IDE : Eclipse for Java EE
--SQL Power Architect
--MicroOLAP Database Designer for PostgreSQL
--PGAdmin
--Git/GitHub
+- IDE : Eclipse for Java EE
+- SQL Power Architect
+- MicroOLAP Database Designer for PostgreSQL
+- PGAdmin
+- Git/GitHub
 
 Intallations 
+
 1) Base de données
-installer postgreSQL : accéder au site https://www.enterprisedb.com/downloads/postgres-postgresql-downloads#windows
+
+- installer postgreSQL : accéder au site https://www.enterprisedb.com/downloads/postgres-postgresql-downloads#windows
 et télécharger la version 9.6.5. 
 Lancer l'installation et suivre les instructions indiquées ici : https://www.supinfo.com/articles/single/977-creer-une-base-donnees-avec-postgresql-windows#
 lancer  PgAdmin 4 et créer une base de données: java_ee 
