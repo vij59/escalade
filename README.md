@@ -86,4 +86,5 @@ Pour cela, il faut remplacer , dans la ligne 25 , ("jdbc:postgresql://localhost:
 placer ce fichier dans le dossier webapps en suivant le chemin suivant
 Program Files → Apache Software Foundation → Tomcat 9.0 → webapps
 
-- Mettre en route votre serveur Tomcat, soit via le Monitor, soit en ouvrant le fichier startup situé dans le dossier bin de Tomcat. Puis entrer dans le navigateur l' url http://localhost:8080/web et ça devrait marcher.
+- Mettre en route votre serveur Tomcat, soit via le Monitor, soit en ouvrant le fichier startup situé dans le dossier bin de Tomcat. Puis entrer dans le navigateur l' url http://localhost:8080/web
+et ça devrait marcher.
