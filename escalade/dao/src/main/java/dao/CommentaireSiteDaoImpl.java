@@ -1,23 +1,18 @@
 package dao;
 
-import java.security.Timestamp;
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.beans.Commentaire;
-import org.beans.Longueur;
-import org.beans.Reservation;
-import org.beans.Voie;
 
-public class CommentaireSiteDaoImpl implements CommentaireDao {
+public class CommentaireSiteDaoImpl implements  CommentaireDao {
 	private DaoFactory daoFactory;
 
 	CommentaireSiteDaoImpl(DaoFactory daoFactory) {
@@ -155,10 +150,7 @@ public class CommentaireSiteDaoImpl implements CommentaireDao {
 		return commentaires;
 	}
 
-	public void ajouterCommentaire(Commentaire commentaire) throws DaoException {
-		// TODO Auto-generated method stub
-
-	}
+	
 
 	public void supprimerCommentaireSite(int idCommentaire) throws DaoException {
 		Connection connexion = null;
@@ -191,9 +183,15 @@ public class CommentaireSiteDaoImpl implements CommentaireDao {
 
 	}
 
-	public void supprimerCommentaireTopo(int idCommentaire) throws DaoException {
+	public void ajouterCommentaire(Commentaire commentaire) throws DaoException {
 		// TODO Auto-generated method stub
-
+		
 	}
 
+	public void supprimerCommentaireTopo(int idCommentaire) throws DaoException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
 }

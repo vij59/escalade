@@ -2,7 +2,6 @@ package com.octest.servlets;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import javax.servlet.ServletException;
@@ -11,7 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import org.beans.BeanException;
 import org.beans.Commentaire;
 import org.beans.Longueur;
 import org.beans.Secteur;
@@ -38,6 +36,7 @@ public class DetailsSite extends HttpServlet {
 	private SecteurDao secteurDao;
 	private VoieDao voieDao;
 	private LongueurDao longueurDao;
+	
 	private CommentaireDao commentaireDao;
 	private UtilisateurDao utilisateurDao;
 

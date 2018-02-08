@@ -198,6 +198,13 @@
 		<servlet-name>SupprimerCommentaireTopo</servlet-name>
 		<servlet-class>com.octest.servlets.SupprimerCommentaireTopo</servlet-class>
 	</servlet>
+	<servlet>
+		<description>
+ 	</description>
+		<display-name>ViderSite</display-name>
+		<servlet-name>ViderSite</servlet-name>
+		<servlet-class>com.octest.servlets.ViderSite</servlet-class>
+	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>CreerUtilisateur</servlet-name>
@@ -300,6 +307,11 @@
 	<servlet-mapping>
 		<servlet-name>SupprimerCommentaireTopo</servlet-name>
 		<url-pattern>/SupprimerCommentaireTopo</url-pattern>
+	</servlet-mapping>
+	
+		<servlet-mapping>
+		<servlet-name>ViderSite</servlet-name>
+		<url-pattern>/ViderSite</url-pattern>
 	</servlet-mapping>
 
 

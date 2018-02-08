@@ -92,6 +92,7 @@ public class AjouterSecteur extends HttpServlet {
 		}
 		try {
 			int k = Integer.parseInt(request.getParameter("reponse"));
+			
 			if (k == 1) {
 				site.removeSecteurs();
 				session.setAttribute("secteurs", null);

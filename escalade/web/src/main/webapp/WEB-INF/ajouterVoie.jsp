@@ -98,7 +98,7 @@
 							<th>Voie n°</th>
 							<th>Nom voie</th>
 							<th>Cotation</th>
-							<th class="text-center">Action</th>
+							<th class="text-center"></th>
 						</tr>
 					</thead>
 					<c:forEach var="voie" items="${ voies }">
@@ -106,11 +106,8 @@
 							<td><c:out value="${ voie.id + 1}" /></td>
 							<td><c:out value="${ voie.nom }" /></td>
 							<td><c:out value="${ voie.cotation }" /></td>
-
-							<td class="text-center"><a class='btn btn-info btn-xs'
-								href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a>
-								<a href="#" class="btn btn-danger btn-xs"><span
-									class="glyphicon glyphicon-remove"></span> Del</a></td>
+							<td></td>
+							
 						</tr>
 					</c:forEach>
 				</table>

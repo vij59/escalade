@@ -102,7 +102,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="well well-sm">
-								<form class="form-horizontal" method="post" action="ajouterSite">
+								<form class="form-horizontal" method="post" action="ViderSite">
 									<fieldset>
 										<legend class="text-center header">Site</legend>
 
@@ -136,7 +136,7 @@
 										<div class="form-group">
 											<span class="col-md-1 col-md-offset-4 text-center"><i
 												class="fa fa-envelope-o bigicon"></i></span>
-											<div class="col-md-6">
+											<div class="col-md-12 text-center">
 												<a href="ajouterSecteur" class="btn btn-primary">Ajouter
 													Secteur</a>
 
@@ -147,11 +147,11 @@
 
 										<div class="form-group">
 											<div class="col-md-12 text-center">
-												<input type="text" value="1" name="reponse" id="reponse"
-													hidden>
+												<input type="text" value="1" name="reponse" id="reponse" hidden >
 												<button type="submit" name="annuler" value="annuler"
 													id="annuler" class="btn btn-primary"
 													style="background-color: red">Annuler</button>
+													
 											</div>
 										</div>
 									</fieldset>
