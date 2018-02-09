@@ -102,6 +102,8 @@ public class ReserverTopo extends HttpServlet {
 				Utilisateur utilisateur = (Utilisateur) session.getAttribute("sessionUtilisateur");
 				//System.out.println(utilisateur.getId());
 				reservation.setIdUtilisateur(utilisateur.getId());
+				
+				request.setAttribute("reservé", 0);
 
 				try {
 					reservationDao.ajouterReservation(reservation);

@@ -20,6 +20,13 @@
 				,
 
 			</p>
+			<c:if test="${ reservé == 0}">
+					<p>
+						vous avez réservé le topo
+						<c:out value="${ topo.nomTopo }" />
+
+					</p>
+				</c:if>
 
 
 			<form action="reserverTopo" method="post">
